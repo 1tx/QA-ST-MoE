@@ -48,7 +48,7 @@ def get_config ():
     parser.add_argument('--aux_variables', type=list, default=auxiliary_variables_set)
     parser.add_argument('--Gen_flag', type=bool, default=False)
     parser.add_argument('--global_normalize', type=bool, default=False)
-    parser.add_argument('--site_info_path', type=str, default='./data/config/test_select_site_UTC.xlsx')
+    parser.add_argument('--site_info_path', type=str, default='./data/config/select_site_UTC.xlsx')
     parser.add_argument('--num_worker', type=int, default=16)
     parser.add_argument('--loss', type=str, default='HUBER')  # MAE ,MSE ,HUBER,
     parser.add_argument('--shuffle', type=bool, default=False)
